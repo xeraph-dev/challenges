@@ -6,3 +6,5 @@
   - [x] [Hello World](https://exercism.org/tracks/go/exercises/hello-world)
   - [x] [Gopher's Gorgeous Lasagna](https://exercism.org/tracks/go/exercises/lasagna)
   - [x] [Annalyn's Infiltration](https://exercism.org/tracks/go/exercises/annalyns-infiltration)
+  - [ ] -
+  - [x] [Weather Forecast](https://exercism.org/tracks/go/exercises/weather-forecast)
