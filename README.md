@@ -10,3 +10,4 @@
   - [x] [Cars Assemble](https://exercism.org/tracks/go/exercises/cars-assemble)
 - [ ] [C](https://exercism.org/tracks/c)
   - [x] [Hello World](https://exercism.org/tracks/c/exercises/hello-world)
+  - [x] [Leap](https://exercism.org/tracks/c/exercises/leap)
