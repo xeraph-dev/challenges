@@ -14,3 +14,4 @@
   - [x] [Difference of Squares](https://exercism.org/tracks/c/exercises/difference-of-squares)
   - [x] [Grains](https://exercism.org/tracks/c/exercises/grains)
   - [x] [Resistor Color](https://exercism.org/tracks/c/exercises/resistor-color)
+  - [x] [Collatz Conjecture](https://exercism.org/tracks/c/exercises/collatz-conjecture)
