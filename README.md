@@ -18,3 +18,4 @@
   - [x] [Queen Attack](https://exercism.org/tracks/c/exercises/queen-attack)
   - [x] [Darts](https://exercism.org/tracks/c/exercises/darts)
   - [x] [Resistor Color Duo](https://exercism.org/tracks/c/exercises/resistor-color-duo)
+  - [x] [Hamming](https://exercism.org/tracks/c/exercises/hamming)
