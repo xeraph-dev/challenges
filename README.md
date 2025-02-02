@@ -15,3 +15,4 @@
   - [x] [Grains](https://exercism.org/tracks/c/exercises/grains)
   - [x] [Resistor Color](https://exercism.org/tracks/c/exercises/resistor-color)
   - [x] [Collatz Conjecture](https://exercism.org/tracks/c/exercises/collatz-conjecture)
+  - [x] [Queen Attack](https://exercism.org/tracks/c/exercises/queen-attack)
