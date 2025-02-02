@@ -19,3 +19,4 @@
   - [x] [Darts](https://exercism.org/tracks/c/exercises/darts)
   - [x] [Resistor Color Duo](https://exercism.org/tracks/c/exercises/resistor-color-duo)
   - [x] [Hamming](https://exercism.org/tracks/c/exercises/hamming)
+  - [x] [Space Age](https://exercism.org/tracks/c/exercises/space-age)
