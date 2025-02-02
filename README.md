@@ -12,3 +12,4 @@
   - [x] [Hello World](https://exercism.org/tracks/c/exercises/hello-world)
   - [x] [Leap](https://exercism.org/tracks/c/exercises/leap)
   - [x] [Difference of Squares](https://exercism.org/tracks/c/exercises/difference-of-squares)
+  - [x] [Grains](https://exercism.org/tracks/c/exercises/grains)
