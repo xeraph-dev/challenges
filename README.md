@@ -16,3 +16,4 @@
   - [x] [Resistor Color](https://exercism.org/tracks/c/exercises/resistor-color)
   - [x] [Collatz Conjecture](https://exercism.org/tracks/c/exercises/collatz-conjecture)
   - [x] [Queen Attack](https://exercism.org/tracks/c/exercises/queen-attack)
+  - [x] [Darts](https://exercism.org/tracks/c/exercises/darts)
