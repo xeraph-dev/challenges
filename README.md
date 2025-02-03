@@ -21,3 +21,4 @@
   - [x] [Hamming](https://exercism.org/tracks/c/exercises/hamming)
   - [x] [Space Age](https://exercism.org/tracks/c/exercises/space-age)
   - [x] [RNA Transcription](https://exercism.org/tracks/c/exercises/rna-transcription)
+  - [x] [Binary](https://exercism.org/tracks/c/exercises/binary)
