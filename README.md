@@ -22,3 +22,4 @@
   - [x] [Space Age](https://exercism.org/tracks/c/exercises/space-age)
   - [x] [RNA Transcription](https://exercism.org/tracks/c/exercises/rna-transcription)
   - [x] [Binary](https://exercism.org/tracks/c/exercises/binary)
+  - [x] [Eliud's Eggs](https://exercism.org/tracks/c/exercises/eliuds-eggs)
