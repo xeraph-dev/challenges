@@ -8,6 +8,12 @@
             "type": "shell",
             "command": "make",
             "args": ["-C", "${workspaceFolder}/c/spiral-matrix", "tests.out"]
+        },
+        {
+            "label": "circular-buffer build",
+            "type": "shell",
+            "command": "make",
+            "args": ["-C", "${workspaceFolder}/c/circular-buffer", "tests.out"]
         }
     ]
 }

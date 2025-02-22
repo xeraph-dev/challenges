@@ -12,6 +12,15 @@
             "args": [],
             "cwd": "${workspaceFolder}/c/spiral-matrix",
             "preLaunchTask": "spiral-matrix build"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "circular-buffer debug",
+            "program": "${workspaceFolder}/c/circular-buffer/tests.out",
+            "args": [],
+            "cwd": "${workspaceFolder}/c/circular-buffer",
+            "preLaunchTask": "circular-buffer build"
         }
     ]
 }
