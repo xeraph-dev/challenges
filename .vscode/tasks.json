@@ -14,6 +14,12 @@
             "type": "shell",
             "command": "make",
             "args": ["-C", "${workspaceFolder}/c/circular-buffer", "tests.out"]
+        },
+        {
+            "label": "saddle-points build",
+            "type": "shell",
+            "command": "make",
+            "args": ["-C", "${workspaceFolder}/c/saddle-points", "tests.out"]
         }
     ]
 }

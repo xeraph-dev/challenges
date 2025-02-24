@@ -21,6 +21,15 @@
             "args": [],
             "cwd": "${workspaceFolder}/c/circular-buffer",
             "preLaunchTask": "circular-buffer build"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "saddle-points debug",
+            "program": "${workspaceFolder}/c/saddle-points/tests.out",
+            "args": [],
+            "cwd": "${workspaceFolder}/c/saddle-points",
+            "preLaunchTask": "saddle-points build"
         }
     ]
 }
