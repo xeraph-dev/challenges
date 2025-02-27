@@ -20,6 +20,12 @@
             "type": "shell",
             "command": "make",
             "args": ["-C", "${workspaceFolder}/c/saddle-points", "tests.out"]
+        },
+        {
+            "label": "phone-number build",
+            "type": "shell",
+            "command": "make",
+            "args": ["-C", "${workspaceFolder}/c/phone-number", "tests.out"]
         }
     ]
 }

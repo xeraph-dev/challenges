@@ -30,6 +30,15 @@
             "args": [],
             "cwd": "${workspaceFolder}/c/saddle-points",
             "preLaunchTask": "saddle-points build"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "phone-number debug",
+            "program": "${workspaceFolder}/c/phone-number/tests.out",
+            "args": [],
+            "cwd": "${workspaceFolder}/c/phone-number",
+            "preLaunchTask": "phone-number build"
         }
     ]
 }
