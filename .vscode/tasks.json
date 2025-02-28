@@ -26,6 +26,12 @@
             "type": "shell",
             "command": "make",
             "args": ["-C", "${workspaceFolder}/c/phone-number", "tests.out"]
+        },
+        {
+            "label": "pascals-triangle build",
+            "type": "shell",
+            "command": "make",
+            "args": ["-C", "${workspaceFolder}/c/pascals-triangle", "tests.out"]
         }
     ]
 }

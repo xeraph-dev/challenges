@@ -39,6 +39,15 @@
             "args": [],
             "cwd": "${workspaceFolder}/c/phone-number",
             "preLaunchTask": "phone-number build"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "pascals-triangle debug",
+            "program": "${workspaceFolder}/c/pascals-triangle/tests.out",
+            "args": [],
+            "cwd": "${workspaceFolder}/c/pascals-triangle",
+            "preLaunchTask": "pascals-triangle build"
         }
     ]
 }
