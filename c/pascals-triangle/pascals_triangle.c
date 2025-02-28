@@ -23,12 +23,12 @@ uint8_t **create_triangle(size_t rows) {
     if (is_zero)
         return triangle;
 
-    uint8_t left = {0};
-    uint8_t right = {0};
-    for (size_t row = {0}; row < rows; row++) {
-        for (size_t col = {0}; col < rows; col++) {
-            left = col == 0 or row == 0 ? 0 : triangle[row - 1][col - 1];
-            right = row == 0 ? (col == 0 ? 1 : 0) : triangle[row - 1][col];
+    triangle[0][0] = 1;
+    for (size_t row = {1}; row < rows; row++) {
+        triangle[row][0] = 1;
+        for (size_t col = {1}; col < rows; col++) {
+            uint8_t left = triangle[row - 1][col - 1];
+            uint8_t right = triangle[row - 1][col];
             triangle[row][col] = left + right;
         }
     }
