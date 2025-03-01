@@ -32,6 +32,16 @@
             "type": "shell",
             "command": "make",
             "args": ["-C", "${workspaceFolder}/c/pascals-triangle", "tests.out"]
+        },
+        {
+            "label": "matching-brackets build",
+            "type": "shell",
+            "command": "make",
+            "args": ["-C", "${workspaceFolder}/c/matching-brackets", "tests.out"], 
+            "presentation": {
+                "reveal": "silent",
+                "close": true
+            }
         }
     ]
 }

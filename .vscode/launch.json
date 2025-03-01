@@ -48,6 +48,15 @@
             "args": [],
             "cwd": "${workspaceFolder}/c/pascals-triangle",
             "preLaunchTask": "pascals-triangle build"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "matching-brackets debug",
+            "program": "${workspaceFolder}/c/matching-brackets/tests.out",
+            "args": [],
+            "cwd": "${workspaceFolder}/c/matching-brackets",
+            "preLaunchTask": "matching-brackets build",
         }
     ]
 }
