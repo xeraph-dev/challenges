@@ -52,6 +52,16 @@
                 "reveal": "silent",
                 "close": true
             }
+        },
+        {
+            "label": "etl build",
+            "type": "shell",
+            "command": "make",
+            "args": ["-C", "${workspaceFolder}/c/etl", "tests.out"], 
+            "presentation": {
+                "reveal": "silent",
+                "close": true
+            }
         }
     ]
 }

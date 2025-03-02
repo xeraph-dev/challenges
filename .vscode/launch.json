@@ -66,6 +66,15 @@
             "args": [],
             "cwd": "${workspaceFolder}/c/secret-handshake",
             "preLaunchTask": "secret-handshake build",
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "etl debug",
+            "program": "${workspaceFolder}/c/etl/tests.out",
+            "args": [],
+            "cwd": "${workspaceFolder}/c/etl",
+            "preLaunchTask": "etl build",
         }
     ]
 }
