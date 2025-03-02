@@ -57,6 +57,15 @@
             "args": [],
             "cwd": "${workspaceFolder}/c/matching-brackets",
             "preLaunchTask": "matching-brackets build",
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "secret-handshake debug",
+            "program": "${workspaceFolder}/c/secret-handshake/tests.out",
+            "args": [],
+            "cwd": "${workspaceFolder}/c/secret-handshake",
+            "preLaunchTask": "secret-handshake build",
         }
     ]
 }

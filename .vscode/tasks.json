@@ -42,6 +42,16 @@
                 "reveal": "silent",
                 "close": true
             }
+        },
+        {
+            "label": "secret-handshake build",
+            "type": "shell",
+            "command": "make",
+            "args": ["-C", "${workspaceFolder}/c/secret-handshake", "tests.out"], 
+            "presentation": {
+                "reveal": "silent",
+                "close": true
+            }
         }
     ]
 }
