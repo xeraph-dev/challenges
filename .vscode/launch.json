@@ -75,6 +75,15 @@
             "args": [],
             "cwd": "${workspaceFolder}/c/etl",
             "preLaunchTask": "etl build",
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "series debug",
+            "program": "${workspaceFolder}/c/series/tests.out",
+            "args": [],
+            "cwd": "${workspaceFolder}/c/series",
+            "preLaunchTask": "series build",
         }
     ]
 }

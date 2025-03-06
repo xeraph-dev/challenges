@@ -62,6 +62,16 @@
                 "reveal": "silent",
                 "close": true
             }
+        },
+        {
+            "label": "series build",
+            "type": "shell",
+            "command": "make",
+            "args": ["-C", "${workspaceFolder}/c/series", "tests.out"], 
+            "presentation": {
+                "reveal": "silent",
+                "close": true
+            }
         }
     ]
 }
