@@ -84,6 +84,15 @@
             "args": [],
             "cwd": "${workspaceFolder}/c/series",
             "preLaunchTask": "series build",
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "diamond debug",
+            "program": "${workspaceFolder}/c/diamond/tests.out",
+            "args": [],
+            "cwd": "${workspaceFolder}/c/diamond",
+            "preLaunchTask": "diamond build",
         }
     ]
 }
