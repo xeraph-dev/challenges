@@ -82,6 +82,16 @@
                 "reveal": "silent",
                 "close": true
             }
+        },
+        {
+            "label": "run-length-encoding build",
+            "type": "shell",
+            "command": "make",
+            "args": ["-C", "${workspaceFolder}/c/run-length-encoding", "tests.out"], 
+            "presentation": {
+                "reveal": "silent",
+                "close": true
+            }
         }
     ]
 }

@@ -93,6 +93,15 @@
             "args": [],
             "cwd": "${workspaceFolder}/c/diamond",
             "preLaunchTask": "diamond build",
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "run-length-encoding debug",
+            "program": "${workspaceFolder}/c/run-length-encoding/tests.out",
+            "args": [],
+            "cwd": "${workspaceFolder}/c/run-length-encoding",
+            "preLaunchTask": "run-length-encoding build",
         }
     ]
 }
