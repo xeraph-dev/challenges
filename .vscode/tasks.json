@@ -92,6 +92,16 @@
                 "reveal": "silent",
                 "close": true
             }
+        },
+        {
+            "label": "linked-list build",
+            "type": "shell",
+            "command": "make",
+            "args": ["-C", "${workspaceFolder}/c/linked-list", "tests.out"], 
+            "presentation": {
+                "reveal": "silent",
+                "close": true
+            }
         }
     ]
 }

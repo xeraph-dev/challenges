@@ -102,6 +102,15 @@
             "args": [],
             "cwd": "${workspaceFolder}/c/run-length-encoding",
             "preLaunchTask": "run-length-encoding build",
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "linked-list debug",
+            "program": "${workspaceFolder}/c/linked-list/tests.out",
+            "args": [],
+            "cwd": "${workspaceFolder}/c/linked-list",
+            "preLaunchTask": "linked-list build",
         }
     ]
 }
