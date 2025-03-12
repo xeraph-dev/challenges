@@ -111,6 +111,15 @@
             "args": [],
             "cwd": "${workspaceFolder}/c/linked-list",
             "preLaunchTask": "linked-list build",
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "word-count debug",
+            "program": "${workspaceFolder}/c/word-count/tests.out",
+            "args": [],
+            "cwd": "${workspaceFolder}/c/word-count",
+            "preLaunchTask": "word-count build",
         }
     ]
 }

@@ -102,6 +102,16 @@
                 "reveal": "silent",
                 "close": true
             }
+        },
+        {
+            "label": "word-count build",
+            "type": "shell",
+            "command": "make",
+            "args": ["-C", "${workspaceFolder}/c/word-count", "tests.out"], 
+            "presentation": {
+                "reveal": "silent",
+                "close": true
+            }
         }
     ]
 }
