@@ -120,6 +120,15 @@
             "args": [],
             "cwd": "${workspaceFolder}/c/word-count",
             "preLaunchTask": "word-count build",
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "rail-fence-cipher debug",
+            "program": "${workspaceFolder}/c/rail-fence-cipher/tests.out",
+            "args": [],
+            "cwd": "${workspaceFolder}/c/rail-fence-cipher",
+            "preLaunchTask": "rail-fence-cipher build",
         }
     ]
 }
