@@ -122,6 +122,16 @@
                 "reveal": "silent",
                 "close": true
             }
+        },
+        {
+            "label": "meetup build",
+            "type": "shell",
+            "command": "make",
+            "args": ["-C", "${workspaceFolder}/c/meetup", "tests.out"], 
+            "presentation": {
+                "reveal": "silent",
+                "close": true
+            }
         }
     ]
 }

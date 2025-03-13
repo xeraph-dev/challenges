@@ -129,6 +129,15 @@
             "args": [],
             "cwd": "${workspaceFolder}/c/rail-fence-cipher",
             "preLaunchTask": "rail-fence-cipher build",
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "meetup debug",
+            "program": "${workspaceFolder}/c/meetup/tests.out",
+            "args": [],
+            "cwd": "${workspaceFolder}/c/meetup",
+            "preLaunchTask": "meetup build",
         }
     ]
 }
