@@ -132,6 +132,16 @@
                 "reveal": "silent",
                 "close": true
             }
+        },
+        {
+            "label": "wordy build",
+            "type": "shell",
+            "command": "make",
+            "args": ["-C", "${workspaceFolder}/c/wordy", "tests.out"], 
+            "presentation": {
+                "reveal": "silent",
+                "close": true
+            }
         }
     ]
 }
