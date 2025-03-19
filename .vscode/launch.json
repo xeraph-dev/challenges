@@ -147,6 +147,15 @@
             "args": [],
             "cwd": "${workspaceFolder}/c/wordy",
             "preLaunchTask": "wordy build",
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "largest-series-product debug",
+            "program": "${workspaceFolder}/c/largest-series-product/tests.out",
+            "args": [],
+            "cwd": "${workspaceFolder}/c/largest-series-product",
+            "preLaunchTask": "largest-series-product build",
         }
     ]
 }

@@ -142,6 +142,16 @@
                 "reveal": "silent",
                 "close": true
             }
+        },
+        {
+            "label": "largest-series-product build",
+            "type": "shell",
+            "command": "make",
+            "args": ["-C", "${workspaceFolder}/c/largest-series-product", "tests.out"], 
+            "presentation": {
+                "reveal": "silent",
+                "close": true
+            }
         }
     ]
 }
