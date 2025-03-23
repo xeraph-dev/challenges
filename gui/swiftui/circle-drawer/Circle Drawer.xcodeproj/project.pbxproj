@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA1742E92A5B2B5700F66947 /* Circle_DrawerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1742E82A5B2B5700F66947 /* Circle_DrawerApp.swift */; };
+		FA1742EB2A5B2B5700F66947 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1742EA2A5B2B5700F66947 /* ContentView.swift */; };
+		FA1742ED2A5B2B5900F66947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1742EC2A5B2B5900F66947 /* Assets.xcassets */; };
+		FA1742F02A5B2B5900F66947 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1742EF2A5B2B5900F66947 /* Preview Assets.xcassets */; };
+		FAACAF122A5B630200D986D6 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAACAF112A5B630200D986D6 /* EditView.swift */; };
+		FAACAF142A5B647000D986D6 /* CirclePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAACAF132A5B647000D986D6 /* CirclePoint.swift */; };
+		FAACAF182A5B7C7700D986D6 /* Windows.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAACAF172A5B7C7700D986D6 /* Windows.swift */; };
+		FAACAF1A2A5B7CEF00D986D6 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAACAF192A5B7CEF00D986D6 /* AppState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA1742E52A5B2B5700F66947 /* Circle Drawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Circle Drawer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1742E82A5B2B5700F66947 /* Circle_DrawerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle_DrawerApp.swift; sourceTree = "<group>"; };
+		FA1742EA2A5B2B5700F66947 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA1742EC2A5B2B5900F66947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA1742EF2A5B2B5900F66947 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA1742F12A5B2B5900F66947 /* Circle_Drawer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Circle_Drawer.entitlements; sourceTree = "<group>"; };
+		FAACAF112A5B630200D986D6 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		FAACAF132A5B647000D986D6 /* CirclePoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclePoint.swift; sourceTree = "<group>"; };
+		FAACAF172A5B7C7700D986D6 /* Windows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Windows.swift; sourceTree = "<group>"; };
+		FAACAF192A5B7CEF00D986D6 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA1742E22A5B2B5700F66947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA1742DC2A5B2B5700F66947 = {
+			isa = PBXGroup;
+			children = (
+				FA1742E72A5B2B5700F66947 /* Circle Drawer */,
+				FA1742E62A5B2B5700F66947 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA1742E62A5B2B5700F66947 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA1742E52A5B2B5700F66947 /* Circle Drawer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA1742E72A5B2B5700F66947 /* Circle Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				FA1742E82A5B2B5700F66947 /* Circle_DrawerApp.swift */,
+				FA1742EA2A5B2B5700F66947 /* ContentView.swift */,
+				FA1742EC2A5B2B5900F66947 /* Assets.xcassets */,
+				FA1742F12A5B2B5900F66947 /* Circle_Drawer.entitlements */,
+				FA1742EE2A5B2B5900F66947 /* Preview Content */,
+				FAACAF112A5B630200D986D6 /* EditView.swift */,
+				FAACAF132A5B647000D986D6 /* CirclePoint.swift */,
+				FAACAF172A5B7C7700D986D6 /* Windows.swift */,
+				FAACAF192A5B7CEF00D986D6 /* AppState.swift */,
+			);
+			path = "Circle Drawer";
+			sourceTree = "<group>";
+		};
+		FA1742EE2A5B2B5900F66947 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA1742EF2A5B2B5900F66947 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA1742E42A5B2B5700F66947 /* Circle Drawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1742F42A5B2B5900F66947 /* Build configuration list for PBXNativeTarget "Circle Drawer" */;
+			buildPhases = (
+				FA1742E12A5B2B5700F66947 /* Sources */,
+				FA1742E22A5B2B5700F66947 /* Frameworks */,
+				FA1742E32A5B2B5700F66947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Circle Drawer";
+			productName = "Circle Drawer";
+			productReference = FA1742E52A5B2B5700F66947 /* Circle Drawer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA1742DD2A5B2B5700F66947 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FA1742E42A5B2B5700F66947 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = FA1742E02A5B2B5700F66947 /* Build configuration list for PBXProject "Circle Drawer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA1742DC2A5B2B5700F66947;
+			productRefGroup = FA1742E62A5B2B5700F66947 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA1742E42A5B2B5700F66947 /* Circle Drawer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA1742E32A5B2B5700F66947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1742F02A5B2B5900F66947 /* Preview Assets.xcassets in Resources */,
+				FA1742ED2A5B2B5900F66947 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA1742E12A5B2B5700F66947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAACAF182A5B7C7700D986D6 /* Windows.swift in Sources */,
+				FAACAF142A5B647000D986D6 /* CirclePoint.swift in Sources */,
+				FA1742EB2A5B2B5700F66947 /* ContentView.swift in Sources */,
+				FAACAF1A2A5B7CEF00D986D6 /* AppState.swift in Sources */,
+				FA1742E92A5B2B5700F66947 /* Circle_DrawerApp.swift in Sources */,
+				FAACAF122A5B630200D986D6 /* EditView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA1742F22A5B2B5900F66947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA1742F32A5B2B5900F66947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FA1742F52A5B2B5900F66947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Circle Drawer/Circle_Drawer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Circle Drawer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.xeraph.Circle-Drawer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FA1742F62A5B2B5900F66947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Circle Drawer/Circle_Drawer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Circle Drawer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.xeraph.Circle-Drawer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA1742E02A5B2B5700F66947 /* Build configuration list for PBXProject "Circle Drawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1742F22A5B2B5900F66947 /* Debug */,
+				FA1742F32A5B2B5900F66947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1742F42A5B2B5900F66947 /* Build configuration list for PBXNativeTarget "Circle Drawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1742F52A5B2B5900F66947 /* Debug */,
+				FA1742F62A5B2B5900F66947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA1742DD2A5B2B5700F66947 /* Project object */;
+}
