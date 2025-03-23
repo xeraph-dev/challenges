@@ -1,0 +1,9 @@
+BasedOnStyle: llvm
+IndentWidth: 4
+InsertNewlineAtEOF: true
+AlignArrayOfStructures: "Left"
+AlignConsecutiveAssignments: "Consecutive"
+AlignConsecutiveDeclarations: "Consecutive"
+AlignConsecutiveBitFields: "Consecutive"
+AlignConsecutiveMacros: "Consecutive"
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse

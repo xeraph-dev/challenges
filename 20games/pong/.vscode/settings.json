@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        ".clang-format": "yaml",
+        ".clang-tidy": "yaml",
+        ".clangd": "yaml",
+        ".cmake-format": "yaml",
+        "LICENSE": "plaintext"
+    },
+    "search.exclude": {
+        "**/.vscode": true,
+        "**/build": true
+    },
+}

@@ -1,0 +1,33 @@
+{
+    "buildPresets": [
+      {
+        "configurePreset": "debug",
+        "name": "debug"
+      },
+      {
+        "configurePreset": "release",
+        "name": "release"
+      }
+    ],
+    "configurePresets": [
+      {
+        "binaryDir": "${sourceDir}/build/debug",
+        "cacheVariables": {
+          "CMAKE_BUILD_TYPE": "Debug"
+        },
+        "description": "Configuration for Debug build",
+        "generator": "Ninja",
+        "name": "debug"
+      },
+      {
+        "binaryDir": "${sourceDir}/build/release",
+        "cacheVariables": {
+          "CMAKE_BUILD_TYPE": "Release"
+        },
+        "description": "Configuration for Release build",
+        "generator": "Ninja",
+        "name": "release"
+      }
+    ],
+    "version": 6
+  }
