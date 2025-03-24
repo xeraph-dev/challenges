@@ -134,8 +134,7 @@ void house_unset_beverage(house_t *house, beverage_t beverage) {
     if (house_isset_beverage(house)) {
         foreach_house {
             if (i > 0 and house->beverage[i] != BEVERAGE_UNSET) {
-                house->beverage[0] = house->beverage[i];
-                house->beverage[i] = BEVERAGE_UNSET;
+                house_set_beverage(house, house->beverage[i]);
                 break;
             }
         }
@@ -164,8 +163,7 @@ void house_unset_color(house_t *house, color_t color) {
     if (house_isset_color(house)) {
         foreach_house {
             if (i > 0 and house->color[i] != COLOR_UNSET) {
-                house->color[0] = house->color[i];
-                house->color[i] = COLOR_UNSET;
+                house_set_color(house, house->color[i]);
                 break;
             }
         }
@@ -190,8 +188,7 @@ void house_unset_pet(house_t *house, pet_t pet) {
     if (house_isset_pet(house)) {
         foreach_house {
             if (i > 0 and house->pet[i] != PET_UNSET) {
-                house->pet[0] = house->pet[i];
-                house->pet[i] = PET_UNSET;
+                house_set_pet(house, house->pet[i]);
                 break;
             }
         }
@@ -220,8 +217,7 @@ void house_unset_hobby(house_t *house, hobby_t hobby) {
     if (house_isset_hobby(house)) {
         foreach_house {
             if (i > 0 and house->hobby[i] != HOBBY_UNSET) {
-                house->hobby[0] = house->hobby[i];
-                house->hobby[i] = HOBBY_UNSET;
+                house_set_hobby(house, house->hobby[i]);
                 break;
             }
         }
@@ -250,8 +246,7 @@ void house_unset_nationality(house_t *house, nationality_t country) {
     if (house_isset_nationality(house)) {
         foreach_house {
             if (i > 0 and house->nationality[i] != NATIONALITY_UNSET) {
-                house->nationality[0] = house->nationality[i];
-                house->nationality[i] = NATIONALITY_UNSET;
+                house_set_nationality(house, house->nationality[i]);
                 break;
             }
         }
