@@ -12,7 +12,7 @@ Window {
     maximumWidth: minimumWidth
     maximumHeight: minimumHeight
     visible: true
-    title: qsTr("Hello World")
+    title: qsTr("CRUD")
 
     UUIDGenerator {
         id: uuid
