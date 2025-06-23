@@ -7,3 +7,10 @@ toDigits n
 
 toDigitsRev :: Integer -> [Integer]
 toDigitsRev = reverse . toDigits
+
+doubleEveryOther :: [Integer] -> [Integer]
+doubleEveryOther xs = reverse $ zipWith f (reverse xs) [1 ..]
+  where
+    f x i
+      | even i = x * 2
+      | otherwise = x
