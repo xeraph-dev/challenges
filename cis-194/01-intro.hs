@@ -14,3 +14,6 @@ doubleEveryOther xs = reverse $ zipWith f (reverse xs) [1 ..]
     f x i
       | even i = x * 2
       | otherwise = x
+
+sumDigits :: [Integer] -> Integer
+sumDigits = sum . map (sum . toDigits)
