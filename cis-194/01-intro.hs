@@ -17,3 +17,6 @@ doubleEveryOther xs = reverse $ zipWith f (reverse xs) [1 ..]
 
 sumDigits :: [Integer] -> Integer
 sumDigits = sum . map (sum . toDigits)
+
+validate :: Integer -> Bool
+validate = (== 0) . (`mod` 10) . sumDigits . doubleEveryOther . toDigits
