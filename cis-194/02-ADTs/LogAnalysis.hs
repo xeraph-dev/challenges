@@ -26,3 +26,6 @@ insert msg@(LogMessage _ msgTs _) (Node left treeMsg@(LogMessage _ treeMsgTs _) 
   | msgTs <= treeMsgTs = Node (insert msg left) treeMsg right
   | otherwise = Node left treeMsg (insert msg right)
 insert _ _ = undefined
+
+build :: [LogMessage] -> MessageTree
+build = foldr insert Leaf
