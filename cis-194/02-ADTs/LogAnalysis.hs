@@ -33,3 +33,12 @@ build = foldr insert Leaf
 inOrder :: MessageTree -> [LogMessage]
 inOrder Leaf = []
 inOrder (Node left msg right) = inOrder left ++ [msg] ++ inOrder right
+
+whatWentWrong :: [LogMessage] -> [String]
+whatWentWrong = map fm . filter ff . inOrder . build
+  where
+    ff (LogMessage (Error lvl) _ _) = lvl > 50
+    ff _ = False
+
+    fm (LogMessage _ _ msg) = msg
+    fm _ = undefined
