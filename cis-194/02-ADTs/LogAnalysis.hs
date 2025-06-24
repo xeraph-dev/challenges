@@ -29,3 +29,7 @@ insert _ _ = undefined
 
 build :: [LogMessage] -> MessageTree
 build = foldr insert Leaf
+
+inOrder :: MessageTree -> [LogMessage]
+inOrder Leaf = []
+inOrder (Node left msg right) = inOrder left ++ [msg] ++ inOrder right
