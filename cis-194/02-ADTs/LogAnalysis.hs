@@ -18,3 +18,11 @@ parseMessage = makeMessage . words
 
 parse :: String -> [LogMessage]
 parse = map parseMessage . lines
+
+insert :: LogMessage -> MessageTree -> MessageTree
+insert (Unknown _) tree = tree
+insert msg Leaf = Node Leaf msg Leaf
+insert msg@(LogMessage _ msgTs _) (Node left treeMsg@(LogMessage _ treeMsgTs _) right)
+  | msgTs <= treeMsgTs = Node (insert msg left) treeMsg right
+  | otherwise = Node left treeMsg (insert msg right)
+insert _ _ = undefined
